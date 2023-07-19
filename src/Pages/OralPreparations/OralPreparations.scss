@@ -1,0 +1,209 @@
+.oral {
+  .oral-title {
+    margin-top: 53px;
+    text-transform: uppercase;
+    .oral-input {
+      width: 680px;
+      border: 1px solid #d3d3d3;
+    }
+    h1 {
+      color: #1c1c1c;
+      font-size: 50px;
+      font-family: KTF Jermilov;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 60px;
+    }
+    input {
+      margin-left: 10px;
+      width: 620px;
+      height: 50px;
+      border-right: none;
+      border: none;
+      outline: none;
+    }
+    i {
+      color: #bb9b75;
+      font-size: 20px;
+      padding-top: 13px;
+    }
+  }
+  .card {
+    margin-top: 22px;
+    img {
+    }
+    .fa-heart {
+      position: absolute;
+      top: 10px;
+      left: 280px;
+      font-size: 25px;
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      padding: 5px;
+    }
+    .fa-chart-simple {
+      position: absolute;
+      top: 50px;
+      left: 280px;
+      font-size: 25px;
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      padding: 5px;
+    }
+    .oral-check {
+      background-color: #4c95ec;
+      position: absolute;
+      top: 10px;
+      padding: 7px;
+      color: #fff;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .oral-checked {
+      background-color: #598b4c;
+      position: absolute;
+      top: 10px;
+      padding: 7px;
+      color: #fff;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .oral-check-shop {
+      background-color: #3c3c3c;
+      position: absolute;
+      top: 10px;
+      padding: 7px;
+      color: #fff;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .card-body {
+      h5 {
+        color: #000;
+        font-size: 20px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+      }
+      p {
+        color: #474747;
+        font-size: 14px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+      }
+      h4 {
+        color: #2f2f2f;
+        font-size: 22px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+      }
+      .trash,
+      .about {
+        margin: 10px 0;
+        width: 100%;
+        border: none;
+        padding: 12px 85px;
+        background: #bb9b75;
+        box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+        color: white;
+      }
+      .about {
+        background-color: transparent;
+        border-radius: 3px;
+        border: 1px solid #bb9b75;
+        color: black;
+      }
+    }
+  }
+  .oral-btn {
+    margin-top: 30px;
+    button {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 200px;
+      padding: 12px 30px;
+      border: none;
+      background-color: #bb9b75;
+      color: white;
+      flex-shrink: 0;
+    }
+  }
+  .oral-content {
+    margin-top: 60px;
+    background-color: #f2f2f2;
+    .oral-content-title {
+      padding: 22px 0;
+      padding-right: 37px;
+      h2 {
+        color: #303030;
+        font-size: 55px;
+        font-family: KTF Jermilov;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 75px;
+      }
+      p {
+        color: #303030;
+        font-size: 18px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+      .oral-arrow {
+        margin-top: 10px;
+        img {
+          margin-right: 10px;
+        }
+        span {
+        }
+        color: #303030;
+        font-size: 18px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        p {
+          color: #303030;
+          font-size: 18px;
+          font-family: Gothic A1;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .oral {
+    .oral-title {
+      margin-top: 30px;
+      .oral-input {
+        width: 330px;
+      }
+    }
+    .oral-content {
+      margin-top: 60px;
+      background-color: #f2f2f2;
+      .oral-content-title {
+        h2 {
+          font-size: 35px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}

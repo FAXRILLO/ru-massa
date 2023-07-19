@@ -1,0 +1,85 @@
+.email {
+  margin-top: 80px;
+  padding-top: 60px;
+  background-color: #bb9b75;
+  .email-title {
+    padding-top: 46px;
+    h2 {
+      color: #fff;
+      font-size: 75px;
+      font-family: KTF Jermilov;
+      line-height: 75px;
+      font-weight: 700;
+    }
+    p {
+      color: #fff;
+      font-size: 18px;
+      font-family: Gothic A1;
+      font-weight: 500;
+      line-height: 28px;
+      padding-top: 80px;
+      padding-right: 400px;
+    }
+  }
+  .email-content {
+    margin-top: 33px;
+    input {
+      margin-right: 15px;
+      width: 400px;
+      height: 52px;
+      padding-left: 10px;
+      outline: none;
+      border: none;
+    }
+    button {
+      background: #bb9b75;
+      border: 1px solid #fff;
+      box-shadow: 0px 10px 22px 0px rgba(240, 108, 107, 0.36);
+      padding: 12px 66px;
+      color: white;
+    }
+  }
+  .tabletki{
+    width: 500px;
+    height: 300px;
+    margin-left:130px;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .email {
+  margin-top: 40px;
+  padding-top: 30px;
+  .email-title {
+    padding-top: 30px;
+    flex-direction: column;
+    h2 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      padding-top: 30px;
+      padding-right: 0px;
+    }
+  }
+  .email-content {
+    flex-direction: column;
+    margin-top: 20px;
+    input {
+      margin: 15px;
+      width: 300px;
+      height: 52px;
+    }
+    button {
+      width: 300px;
+      margin: 15px;
+    }
+  }
+  .tabletki{
+display: none;
+  }
+}
+}

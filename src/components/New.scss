@@ -1,0 +1,101 @@
+section.new {
+    margin-top: 70px;
+    .new-title {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 70px;
+      }
+      .btn {
+        margin-top: 25px;
+        height: 50px;
+        border: none;
+        background: linear-gradient(130.83deg, #cfae87 9.11%, #a48159 70.56%);
+        padding: 10px 20px;
+        span {
+          padding-top: 5px;
+          padding-left: 5px;
+          color: white;
+        }
+      }
+    }
+    .slides {
+      position: relative;
+      margin-top: 61px;
+      img {
+        width: 300px;
+      }
+      .fa-heart {
+        position: absolute;
+        padding: 10px;
+        background-color: white;
+        top: 10px;
+        font-size: 20px;
+      }
+      .fa-chart-simple {
+        position: absolute;
+        top: 60px;
+        padding: 10px;
+        background-color: white;
+        font-size: 20px;
+      }
+      h4 {
+        padding: 5px 0;
+        font-size: 20px;
+        font-family: Gothic A1;
+        font-weight: 700;
+        width: 200px;
+      }
+      p {
+        color: #474747;
+        font-family: Gothic A1;
+        font-size: 18px;
+        width: 200px;
+      }
+      h5 {
+        color: #2f2f2f;
+        font-size: 22px;
+        font-family: Gothic A1;
+        font-weight: 700;
+        line-height: 24px;
+        width: 200px;
+      }
+      .btns {
+        box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+        width: 300px;
+        text-align: center;
+        .trash {
+          width: 100%;
+          padding: 10px 60px;
+          border: none;
+          background: #bb9b75;
+          box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+          margin-bottom: 10px;
+        }
+        .about-reko {
+          width: 100%;
+          padding: 10px 60px;
+          border: 1px solid #bb9b75;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 667px) {
+    section.new {
+      margin-top: 40px;
+      .new-title {
+        text-align: center;
+        display: block;
+        h2 {
+          font-size: 50px;
+        }
+      }
+      .slides{
+        img, h4, p, h5, .btns{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }

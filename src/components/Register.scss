@@ -1,0 +1,220 @@
+.register {
+  .register-dialog {
+    background-color: #f8f8f8;
+    width: 1145px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 30px;
+    height: 750px;
+    input {
+      width: 511px;
+      border: none;
+    }
+    .register-title {
+      align-items: center;
+      h5 {
+        margin-left: 10px;
+        color: #303030;
+        font-family: Gothic A1;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+      }
+    }
+    h1 {
+      color: #1f1f1f;
+      font-family: KTF Jermilov;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 55px;
+    }
+    .register-enter {
+      display: flex;
+      span {
+        padding-top: 5px;
+        color: #828282;
+        text-align: center;
+        font-family: Gothic A1;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-right: 20px;
+      }
+      a {
+        color: #bb9b75;
+        text-align: center;
+        font-family: Gothic A1;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        text-decoration-line: underline;
+      }
+    }
+    .register-content {
+      margin-top: 30px;
+      h5 {
+        color: #6b6b6b;
+        font-family: Gothic A1;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+      }
+      .register-now {
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      .register-name {
+        margin-bottom: 40px;
+        justify-content: space-between;
+      }
+      .register-surname {
+        margin-bottom: 40px;
+
+        justify-content: space-between;
+      }
+    }
+    .btn {
+      cursor: pointer;
+      display: flex;
+      justify-content: end;
+      button {
+        margin-top: 20px;
+        width: 208px;
+        background: linear-gradient(172deg, #cfae87 0%, #a48159 100%);
+        padding: 10px 16px;
+        border: none;
+        color: white;
+      }
+    }
+    .register-click {
+      margin-top: 10px;
+      h5 {
+        color: #222;
+        font-family: HelveticaNeueCyr;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.5px;
+      }
+      .fa-facebook {
+        font-size: 50px;
+        color: blue;
+        margin-right: 20px;
+      }
+      .fa-google-plus {
+        font-size: 50px;
+        color: red;
+      }
+    }
+  }
+}
+@media screen and (max-width: 667px) {
+  .register {
+    .register-dialog {
+      width: 100%;
+      margin-top: 50px;
+      padding: 20px;
+      height: 100%;
+      input {
+        width: 100%;
+      }
+      .register-title {
+        align-items: center;
+        h5 {
+          margin-left: 10px;
+          color: #303030;
+          font-family: Gothic A1;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 26px;
+        }
+      }
+      h1 {
+        text-align: center;
+        color: #1f1f1f;
+        font-family: KTF Jermilov;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+      }
+      .register-enter {
+        display: flex;
+        justify-content: space-between;
+        span {
+          padding-top: 5px;
+          font-size: 20px;
+        }
+        a {
+          color: #bb9b75;
+          text-align: center;
+          font-family: Gothic A1;
+          font-size: 20px;
+        }
+      }
+      .register-content {
+        margin: 30px 0;
+        h5 {
+          color: #6b6b6b;
+          font-family: Gothic A1;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 16px;
+        }
+        .register-now {
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .register-name {
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .register-surname {
+          flex-direction: column;
+          justify-content: space-between;
+        }
+      }
+      .btn {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        button {
+          margin-top: 20px;
+          width: 208px;
+          background: linear-gradient(172deg, #cfae87 0%, #a48159 100%);
+          padding: 10px 16px;
+          border: none;
+          color: white;
+        }
+      }
+      .register-click {
+        margin-top: 10px;
+        h5 {
+          color: #222;
+          font-family: HelveticaNeueCyr;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 19.5px;
+        }
+        .fa-facebook {
+          font-size: 50px;
+          color: blue;
+          margin-right: 20px;
+        }
+        .fa-google-plus {
+          font-size: 50px;
+          color: red;
+        }
+      }
+    }
+  }
+}

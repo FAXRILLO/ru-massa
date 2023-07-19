@@ -1,0 +1,261 @@
+.adres {
+    .adres-title {
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 70px;
+            color: #1C1C1C;
+        }
+    }
+    .kupon {
+        margin-top: 30px;
+        border: 1px solid #D8D8D8;
+        width: 354px;
+        height: 60px;
+        padding: 15px 0 0 15px;
+        span {
+            font-weight: 400;
+            font-size: 18px;
+            color: #3D3D3D;
+            b {
+                color: #BB9B75;
+            }
+        }
+    }
+    .adres-content {
+        margin-bottom: 100px;
+        h2 {
+            padding: 45px 0 20px;
+            font-weight: 500;
+            font-size: 45px;
+            color: #1C1C1C;
+        }
+        h5 {
+            font-weight: 400;
+            font-size: 16px;
+            color: #474747;
+            padding: 20px 0 10px;
+        }
+        input {
+            width: 750px;
+            height: 50px;
+            border: 1px solid #D8D8D8;
+            color: #1a0c0c;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        .region {
+            gap: 15px;
+            .input__region {
+                width: 355px;
+            }
+        }   
+        .input__mobile {
+            height: 240px;
+            padding: 18px 260px 200px 15px;
+        }
+    }
+    .order {
+        h2 {
+            padding: 50px 0 20px;
+            font-weight: 500;
+            font-size: 45px;
+            color: #1C1C1C;
+        }
+        .order__card {
+            background-color: #F8F8F8;
+            width: 560px;
+            height: 490px;
+            padding: 19px 15px;
+            .order__amount {
+                border: 1px solid #E6E6E6;
+                padding: 28px 26px;
+                .thing {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #F4F4F4;
+                    h5 {
+                        font-weight: 500;
+                        font-size: 26px;
+                        color: #272727;
+                    }
+                }
+                .amount {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #F4F4F4;
+                    padding: 8px 0;
+                    span {
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #8C8888;
+                    }
+                    h6 {}
+                }
+                .delivery {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #F4F4F4;
+                    padding: 5px 0;
+                    h5 {
+                        font-weight: 400;
+                        font-size: 18px; 
+                        color: #474747;
+                    }
+                    span {
+                        display: flex;
+                        gap: 4px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #474747;
+                        h6 {
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: #BB9B75;
+                        }
+                    }
+                }
+                .all {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 0 0 0;
+                    h5 {
+                        font-weight: 800;
+                        font-size: 18px;
+                        color: #474747;
+                    }
+                    .all__amount {
+                        color: #BB9B75;
+                    }
+                }
+            }
+            .order__title {
+                width: 518px;
+                height: 58px;
+                color: #363537;
+                padding-top: 15px;
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    h5 {
+                        font-weight: 800;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .check {
+                display: flex;
+                gap: 5px;
+                margin: 65px 0 18px 0;
+                input {
+                    width: 22px;
+                    height: 22px;
+                }
+                span {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #363537;
+                }
+            }
+            button {
+                width: 530px;
+                height: 50px;
+                background-color: #BB9B75;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: center;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 667px) {
+    .adres {
+        .adres-title {
+            h1 {
+                font-size: 30px;
+            }
+        }
+        .kupon {
+            margin-top: 20px;
+            width: 300px;
+            height: 60px;
+            span {
+                font-size: 12px;
+            }
+        }
+        .adres-content {
+            margin-bottom: 50px;
+            h2 {
+                padding: 25px 0 10px;
+                font-size: 35px;
+            }
+            input {
+                width: 300px;
+            }
+            .region {
+                gap: 15px;
+                flex-direction: column;
+                .input__region {
+                    width: 300px;
+                }
+            }   
+            .input__mobile {
+                height: 240px;
+                padding: 18px 0px 200px 0px;
+            }
+        }
+        .order {
+            h2 {
+                padding: 0px;
+                text-align: center;
+            }
+            .order__card {
+                width: 300px;
+                height: 490px;
+                .order__amount {
+                    .thing {
+                        h5 {
+                            font-size: 14px;
+                        }
+                    }
+                    .amount {
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                    .delivery {
+                        h5 {
+                            font-size: 14px; 
+                        }
+                        span {
+                            font-size: 14px;
+                            h6 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .all {
+                        h5 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .order__title {
+                    width: 300px;
+                    height: 58px;
+                    p {
+                        font-size: 14px;
+                        h5 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                button {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

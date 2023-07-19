@@ -1,0 +1,77 @@
+.zakaz {
+  .zakaz-title {
+    margin: 35px 0;
+    h2 {
+      color: #1c1c1c;
+      font-size: 50px;
+      font-family: KTF Jermilov;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 70px;
+      text-transform: uppercase;
+    }
+  }
+  .zakaz-content {
+    background-color: #f8f8f8;
+    padding: 37px 47px;
+    .col-12 {
+      border: 1px solid rgb(183, 180, 180);
+      padding: 10px;
+    }
+    i {
+    }
+    span {
+      margin-left: 10px;
+      color: #494949;
+      font-size: 16px;
+      font-family: Gothic A1;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  .alert {
+    margin-bottom: 102px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .zakaz {
+  .zakaz-title {
+    margin: 20px 0;
+    h2 {
+      text-align: center;
+      color: #1c1c1c;
+      font-size: 30px;
+      font-family: KTF Jermilov;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 35px;
+      text-transform: uppercase;
+    }
+  }
+  .zakaz-content {
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 37px 47px;
+    .col-12 {
+      border: 1px solid rgb(183, 180, 180);
+      padding: 10px;
+    }
+    i {
+    }
+    span {
+      margin-left: 10px;
+      color: #494949;
+      font-size: 16px;
+      font-family: Gothic A1;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  .alert {
+    margin-bottom: 102px;
+  }
+}
+}

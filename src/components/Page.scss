@@ -1,0 +1,25 @@
+.korzina-page{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    text-align: center;
+  .korzina-page-item{
+    cursor: pointer;
+    h5{
+        padding: 16px 24px;
+        background-color: #F9F9F9;
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .korzina-page{
+    gap: 20px;
+  .korzina-page-item{
+    cursor: pointer;
+    h5{
+        padding: 10px 20px;
+    }
+  }
+}
+}

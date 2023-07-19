@@ -1,0 +1,93 @@
+.main__next {
+    margin: 44px 0 105px;
+    display: flex;
+    justify-content: space-between;
+    .left__next {
+      display: flex;
+      .prev {
+        width: 77px;
+        height: 77px;
+        border-radius: 50%;
+        background-color: #f8f8f8;
+        box-shadow: 0 10px 20px rgb(0, 0, 0, 0.16);
+        margin-right: 20px;
+        i {
+          width: 19px;
+          height: 11px;
+          color: #dd5956;
+          font-size: 20px;
+          padding: 31px 32px;
+          text-align: center;
+        }
+      }
+      .prev__title {
+        .next__menu {
+          display: flex;
+          p {
+            font-weight: 700;
+            font-size: 16px;
+            color: #cecece;
+            padding-right: 10px;
+          }
+          .my__icon {
+            width: 35px;
+            height: 35px;
+            border: 1px solid #dd5956;
+            border-radius: 50%;
+            i {
+              color: #dd5956;
+              padding: 9px;
+            }
+          }
+        }
+        .title {
+          width: 370px;
+          height: 45px;
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            color: #1d1d1d;
+          }
+        }
+      }
+    }
+    .right__next {
+      display: block;
+      h5 {
+        display: block;
+        color: #1c1c1c;
+        font-family: Gothic A1;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+      }
+      .brands {
+          display: flex;
+        .fa-brands {
+          width: 40px;
+          height: 40px;
+          margin-right: 5px;
+          color: #fff;
+          border-radius: 3px;
+          font-size: 20px;
+          padding: 9px;
+        }
+        .fa-facebook {
+          background: #3d6ad6;
+        }
+        .fa-twitter {
+          background: #1da1f2;
+        }
+        .fa-pinterest {
+          background: #d0272c;
+        }
+        .fa-linkedin {
+          background: #0077b5;
+        }
+        .fa-telegram {
+          background: #039be5;
+        }
+      }
+    }
+  }

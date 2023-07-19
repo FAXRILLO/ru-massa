@@ -1,0 +1,143 @@
+hr {
+  width: 250px;
+}
+.new-card {
+  background-color: #f8f8f8;
+  .new-card-title {
+    margin-top: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 70px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+    .btn {
+      width: 300px;
+      margin-top: 25px;
+      height: 50px;
+      border: none;
+      background: linear-gradient(130.83deg, #cfae87 9.11%, #a48159 70.56%);
+      padding: 10px 20px;
+      span {
+        font-size: 16px;
+        font-family: Gothic A1;
+        font-weight: 700;
+        line-height: 30px;
+        color: white;
+      }
+    }
+  }
+  .slider-1 {
+    background-color: white;
+    img {
+      height: 250px;
+      width: 250px;
+    }
+    h4 {
+      padding: 15px 0;
+    }
+    .kalendar {
+      width: 250px;
+      .kalendar-p {
+        padding: 0 10px;
+        span {
+          color: #474747;
+          font-size: 14px;
+          font-family: Gothic A1;
+          line-height: 23px;
+          letter-spacing: 0.14px;
+        }
+      }
+      span {
+        margin-left: 10px;
+        color: #474747;
+        font-size: 14px;
+        font-family: Gothic A1;
+        line-height: 23px;
+        letter-spacing: 0.14px;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+      }
+      span {
+      }
+    }
+    .kalendar-email {
+      width: 250px;
+      h5 {
+        text-align: center;
+        color: #323232;
+        font-size: 16px;
+        font-family: Gothic A1;
+        line-height: 23px;
+      }
+    }
+    .kalendar-more {
+      padding-left: 25px;
+      width: 250px;
+      .massage,
+      .share {
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background: #f7f7f7;
+      }
+      .share {
+        color: #bb9b75;
+        margin-left: 10px;
+      }
+    }
+    .btn {
+      width: 250px;
+      button {
+        padding: 12px 40px;
+        margin-top: 20px;
+        border: 3px solid #bb9b75;
+        background-color: transparent;
+        width: 100%;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .new-card {
+    background-color: #f8f8f8;
+  
+    .new-card-title {
+      margin-top: 30px;
+      padding-top: 40px;
+      display: block;
+      h2 {
+        font-size: 70px;
+        font-weight: 700;
+        margin-bottom: 25px;
+      }
+      .btn {
+        margin: 15px;
+        height: 50px;
+        border: none;
+        background: linear-gradient(130.83deg, #cfae87 9.11%, #a48159 70.56%);
+        padding: 10px 20px;
+        span {
+          font-size: 16px;
+          font-family: Gothic A1;
+          font-weight: 700;
+          line-height: 30px;
+          color: white;
+        }
+      }
+    }
+    .slider-card{
+     img, h4, .kalendar, .kalendar-email, .kalendar-more, .btn{
+      width: 100%;
+      height: auto;
+     }
+    }
+  }
+}

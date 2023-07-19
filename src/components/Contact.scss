@@ -1,0 +1,180 @@
+input {
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid rgba(216, 216, 216, 1);
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(222, 222, 222, 1);
+  outline: none;
+}
+
+.contact {
+  .contact-title {
+    h2 {
+      padding: 35px 0;
+      font-weight: 700;
+      font-size: 70px;
+      text-transform: uppercase;
+    }
+    .letters {
+      display: flex;
+      border: 1px solid rgba(216, 216, 216, 1);
+      width: 650px;
+      .my__telegram {
+        border-right: 1px solid rgba(216, 216, 216, 1);
+        padding: 20px;
+        display: flex;
+        .my__tg {
+          i {
+            color: blue;
+            font-size: 50px;
+          }
+        }
+        .my__tg-content {
+          padding-left: 20px;
+          span {
+            font-weight: 500;
+            font-size: 18px;
+            color: rgba(47, 47, 47, 1);
+          }
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(119, 119, 119, 1);
+          }
+        }
+      }
+      .my__email {
+        display: flex;
+        padding: 20px;
+        .my__mail {
+          i {
+            font-size: 50px;
+            color: #dd5559;
+          }
+        }
+        .my__mail-content {
+          padding-left: 20px;
+          span {
+            font-weight: 500;
+            font-size: 18px;
+            color: rgba(47, 47, 47, 1);
+          }
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(119, 119, 119, 1);
+          }
+        }
+      }
+    }
+    .about {
+      background: rgba(248, 248, 248, 1);
+      margin-top: 80px;
+      .about__inputs {
+        display: flex;
+        justify-content: space-between;
+        p {
+          padding-top: 40px;
+          font-weight: 500;
+          font-size: 16px;
+          color: rgba(71, 71, 71, 1);
+        }
+      }
+      .coment {
+        padding-top: 40px;
+        p {
+          padding-top: 40px;
+          font-weight: 500;
+          font-size: 16px;
+          color: rgba(71, 71, 71, 1);
+        }
+        input {
+          width: 1295px;
+          height: 167px;
+          padding: 18px 1140px 130px 15px;
+        }
+      }
+      .my__btn {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 100px 0;
+        button {
+
+          width: 210px;
+          height: 50px;
+          padding: 12px 35px;
+          background-color: #bb9b75;
+          color: white;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {  
+  input {
+    width:300px;
+  }
+  .contact {
+    .contact-title {
+      h2 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 40px;
+        text-transform: uppercase;
+      }
+      .letters {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        .my__telegram {
+          padding: 10px;
+          display: flex;
+        }
+        .my__email {
+          display: flex;
+          padding: 10px;
+        }
+      }
+      .about {
+        background: rgba(248, 248, 248, 1);
+        margin-top: 40px;
+        .about__inputs {
+          display: flex;
+          flex-direction: column;
+        }
+        .coment {
+          padding-top: 40px;
+          p {
+            padding-top: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            color: rgba(71, 71, 71, 1);
+          }
+          input {
+            width: 100px !important;
+            height: 167px;
+            padding: 18px 300px 130px 15px;
+          }
+        }
+        .my__btn {
+          display: flex;
+          justify-content: center;
+          padding: 30px 0 100px 0;
+          button {
+  
+            width: 210px;
+            height: 50px;
+            padding: 12px 35px;
+            background-color: #bb9b75;
+            color: white;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

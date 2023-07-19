@@ -1,0 +1,112 @@
+.sale {
+  .sale-title {
+    margin: 35px 0;
+
+    h2 {
+      color: #1c1c1c;
+      font-size: 70px;
+      font-family: KTF Jermilov;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 70px;
+    }
+  }
+  .sale-content {
+    width: 1920px;
+    height: 334px;
+    flex-shrink: 0;
+    background-color: #f8f8f8;
+    h5 {
+      padding-top: 35px;
+      color: #474747;
+      font-size: 16px;
+      font-family: Gothic A1;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 24px;
+    }
+    p {
+      color: #474747;
+      font-size: 16px;
+      font-family: Gothic A1;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+    }
+    h6 {
+      color: #474747;
+      font-size: 16px;
+      font-family: Gothic A1;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sale-left-content {
+      padding-top: 50px;
+      i {
+        padding: 10px;
+        background: #ebebeb;
+        margin-right: 10px;
+      }
+    }
+    img {
+      position: absolute;
+      top: 135px;
+      right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .sale {
+    .sale-title {
+      margin: 20px 0;
+      h2 {
+        font-size: 50px;
+        text-align: center;
+      }
+    }
+    .sale-content {
+      width: 370px;
+      height: 500px;
+      flex-shrink: 0;
+      h5 {
+        padding-top: 20px;
+        color: #474747;
+        font-size: 18px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px;
+      }
+      p {
+        color: #474747;
+        font-size: 18px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+      }
+      h6 {
+        color: #474747;
+        font-size: 16px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+      }
+      .sale-left-content {
+        flex-direction: column;
+        padding-top: 20px;
+        i {
+          padding: 10px;
+          background: #ebebeb;
+          margin-right: 10px;
+        }
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+$my__gray: #474747;
+
+.row {
+  .otziv-title {
+    h2 {
+      padding: 35px 0;
+      font-weight: 700;
+      font-size: 70px;
+    }
+  }
+  .otziv-content {
+    background: #f8f8f8;
+    h5 {
+      padding: 20px 0;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .name__input {
+      h6 {
+        font-size: 18px;
+        font-weight: 500;
+        color: $my__gray;
+        padding-bottom: 13px;
+      }
+      input {
+        width: 560px;
+        height: 50px;
+        padding: 15px;
+        outline: none;
+      }
+    }
+    .email__input {
+      h6 {
+        padding: 24px 0 13px 0;
+        font-weight: 500;
+        font-size: 18px;
+        color: $my__gray;
+      }
+      input {
+        width: 560px;
+        height: 50px;
+        outline: none;
+        padding: 15px;
+      }
+    }
+    .otziv__input {
+      padding-bottom: 20px;
+      h6 {
+        padding: 24px 0 13px 0;
+        font-weight: 500;
+        font-size: 18px;
+        color: $my__gray;
+      }
+      input {
+        width: 560px;
+        height: 220px;
+        padding: 18px 418px 190px 15px;
+        outline: none;
+      }
+    }
+    input {
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+    button {
+      width: 210px;
+      height: 50px;
+      padding: 12px 35px;
+      background-color: #bb9b75;
+      color: white;
+      border: none;
+      display: block;
+    }
+    .my__cart {
+      display: flex;
+      gap: 15px;
+      padding: 10px;
+      .my__cart-item {
+        border: 1px solid rgba(216, 216, 216, 1);
+        padding: 15px;
+        width: 350px;
+        height: 280px;
+        .head__img {
+          display: flex;
+          img {
+            width: 70px;
+            height: 70px;
+          }
+          span {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(47, 47, 47, 1);
+            padding: 16px 0 0 9px;
+          }
+        }
+        .body {
+          padding-top: 15px;
+          p {
+            color: #565656;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+        }
+        .footer {
+          display: flex;
+          border-top: 1px solid #d8d8d8;
+          padding: 0;
+          justify-content: end;
+          i {
+            color: #dd5559;
+            font-size: 30px;
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .row {
+    .otziv-title {
+      h2 {
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+    .otziv-content {
+      display: flex;
+      flex-direction: column;
+      h5 {
+        padding: 10px 0;
+        font-size: 30px;
+        text-align: center;
+      }
+      .name__input {
+        h6 {
+          font-size: 18px;
+          font-weight: 500;
+          padding-bottom: 8px;
+        }
+        input {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+      .email__input {
+        h6 {
+          padding: 15px 0 10px 0;
+        }
+        input {
+          width: 100%;
+        }
+      }
+      .otziv__input {
+        h6 {
+          padding: 15px 0 10px 0;
+        }
+        input {
+          width: 100%;
+          height: 220px;
+          padding: 18px 300px 190px 15px;
+        }
+      }
+      .my__cart {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+        .my__cart-item {
+          border: 1px solid rgba(216, 216, 216, 1);
+          padding: 15px;
+          width: 100%;
+          height: 280px;
+          .head__img {
+            display: flex;
+            img {
+              width: 70px;
+              height: 70px;
+            }
+            span {
+              font-size: 24px;
+              font-weight: 700;
+              color: rgba(47, 47, 47, 1);
+              padding: 16px 0 0 9px;
+            }
+          }
+          .body {
+            padding-top: 15px;
+            p {
+              color: #565656;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+            }
+          }
+          .footer {
+            display: flex;
+            border-top: 1px solid #d8d8d8;
+            padding: 0;
+            justify-content: end;
+            i {
+              color: #dd5559;
+              font-size: 30px;
+              padding-top: 20px;
+            }
+          }
+        }
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

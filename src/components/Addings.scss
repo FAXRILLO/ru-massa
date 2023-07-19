@@ -1,0 +1,175 @@
+.addings {
+  .get__things {
+    .get__things-title {
+      margin: 50px 0 20px;
+      width: 150px;
+      height: 30px;
+      background-color: #4c95ec;
+      text-align: center;
+      span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17.5px;
+        color: white;
+      }
+    }
+    .get__things-sp {
+      padding-bottom: 20px;
+      h2 {
+        font-weight: 700;
+        font-size: 50px;
+        color: #1c1c1c;
+      }
+    }
+    .main__author {
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
+      padding-bottom: 20px;
+      .add__author {
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          color: #474747;
+          letter-spacing: 1%;
+        }
+        img {
+          width: 21px;
+          height: 21px;
+          margin: 0 8px;
+        }
+      }
+      .add__date {
+        i {
+          width: 12px;
+          height: 12px;
+          margin-right: 5px;
+        }
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          letter-spacing: 2%;
+          color: #474747;
+        }
+      }
+      .add__coment {
+        width: 26px;
+        height: 27px;
+        border-radius: 4px;
+        background-color: #f7f7f7;
+        text-align: center;
+        i {
+          width: 13px;
+          height: 13px;
+        }
+      }
+    }
+    .things__title {
+      width: 1090px;
+      height: 200px;
+      background-color: #f7f7f7;
+      padding: 10px 0;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #323232;
+        h6 {
+          padding: 3px 0;
+          span {
+            color: #808080;
+          }
+        }
+      }
+    }
+  }
+
+  .add__card {
+    padding-top: 30px;
+    .card__head {
+      img {
+        background-color: #ffffff;
+        width: 360px;  
+        height: 370px;  
+      }
+      .second__head {
+        width: 360px;  
+        height: 325px;  
+        box-shadow: 0 0 10px 0 rgb(207, 200, 200);
+        padding: 70px;
+        margin-top: 18px;
+      }
+    }
+    .card__body {
+      span {
+        font-weight: 400;
+        font-size: 18px;
+        color: #1d1d1d;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #1d1d1d;
+        padding-top: 25px;
+      }
+      h6 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #bb9b75;
+      }
+      h5 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #bb9b75;
+        margin-top: -14px;
+      }
+    }
+  }
+  .new__products {
+    padding-top: 120px;
+    .my__prod {
+      padding-bottom: 20px;
+      h4 {
+        font-weight: 800;
+        font-size: 16px;
+        color: #323232;
+      }
+    }
+    .new__gonadot {
+      background-color: #fff9f9;
+      padding: 5px;
+      .gonadot__item {
+        display: flex;
+        img {
+          width: 60px;
+          height: 110px;
+        }
+        .gonadot__title {
+          .gonadot__span {
+            width: 130px;
+            span {
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 16px;
+              color: #323232;
+            }
+          }
+          h5 {
+            padding-top: 16px;
+            font-weight: 900;
+            font-size: 12px;
+            color: #BB9B75;
+          }
+        }
+      }
+    }
+    .new__category {
+      padding-top: 25px;
+    }
+    .new__gonadot {
+      a {
+        font-weight: 400;
+        font-size: 13px;
+      }
+    }
+  }
+}

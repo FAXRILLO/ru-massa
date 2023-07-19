@@ -1,0 +1,594 @@
+.single {
+  margin: 40px 0;
+  .single-img {
+    position: relative;
+    img {
+      width: 447px;
+      height: 447px;
+    }
+    .pos {
+      width: 130px;
+      height: 30px;
+      background-color: #4c95ec;
+      padding: 20px 5px;
+      color: white;
+      position: absolute;
+      top: 37px;
+      left: 20px;
+      i {
+        margin-right: 10px;
+      }
+    }
+    .heart {
+      padding: 5px 12px;
+      background: #f7f7f7;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 38px;
+      right: 0px;
+      font-size: 20px;
+    }
+    .grafh {
+      padding: 5px 12px;
+      background: #f7f7f7;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 92px;
+      right: 0px;
+      font-size: 20px;
+    }
+    .slider {
+      margin-left: 20px;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    .quetion {
+      margin-top: 40px;
+      width: 250px;
+      padding: 15px 28px;
+      border-radius: 3px;
+      border: 1px solid #bb9b75;
+      background: #fff;
+      text-align: center;
+      color: #bb9b75;
+      button {
+        border: none;
+        background-color: transparent;
+        color: #bb9b75;
+      }
+    }
+  }
+  .single-title {
+    h2 {
+      color: #1c1c1c;
+      font-family: Gothic A1;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+      width: 564px;
+    }
+  }
+  .single-cart {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    h5 {
+      color: #2f2f2f;
+      font-family: Gothic A1;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      margin-right: 10px;
+    }
+    button {
+      width: 44px;
+      height: 44px;
+    }
+    span {
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      border-radius: 2px;
+      background: #323232;
+      color: white;
+      padding-top: 8px;
+    }
+    .shop {
+      width: 148px;
+      height: 44px;
+      background: #bb9b75;
+      box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+      border: none;
+      margin-left: 10px;
+      color: white;
+    }
+    .fa-heart,
+    .fa-chart-simple {
+      margin-left: 16px;
+      width: 44px;
+      height: 44px;
+      border-radius: 3px;
+      border: 1px solid #bb9b75;
+      background: #fff;
+      font-size: 20px;
+      padding: 13px 12px;
+      border-radius: 3px;
+      color: #bb9b75;
+    }
+  }
+  .single-content {
+    h5 {
+      color: #1c1c1c;
+      font-family: Gothic A1;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+    }
+    p {
+      color: #515151;
+      font-family: Gothic A1;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .single-h {
+      color: #2e2e2e;
+      font-family: Gothic A1;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+    }
+    .author {
+      color: #bb9b75;
+      font-family: Gothic A1;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+    }
+  }
+  .single-share {
+    h5 {
+      color: #1c1c1c;
+      font-family: Gothic A1;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+    }
+    .fa-facebook {
+      width: 40px;
+      padding: 9px;
+      border-radius: 3px;
+      background: #3d6ad6;
+      height: 40px;
+      font-size: 20px;
+      color: white;
+      margin-right: 5px;
+    }
+    .fa-twitter {
+      width: 40px;
+      border-radius: 3px;
+      background: #1da1f2;
+      height: 40px;
+      font-size: 20px;
+      padding: 9px;
+      color: white;
+      margin-right: 5px;
+    }
+    .fa-pinterest {
+      width: 40px;
+      border-radius: 3px;
+      background: #d0272c;
+      height: 40px;
+      font-size: 20px;
+      padding: 9px;
+      color: white;
+      margin-right: 5px;
+    }
+    .fa-linkedin {
+      border-radius: 3px;
+      background: #0077b5;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      padding: 9px;
+      color: white;
+      margin-right: 5px;
+    }
+    .fa-telegram {
+      border-radius: 3px;
+      background: #039be5;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      padding: 9px;
+      color: white;
+      margin-right: 5px;
+    }
+    img {
+      margin-top: 20px;
+      width: 500px;
+    }
+  }
+  .single-dostavka-title {
+    padding: 15px;
+    background-color: #f8f8f8;
+    h2 {
+      color: #1c1c1c;
+      font-family: Gothic A1;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 20px;
+    }
+    h5 {
+      color: #303030;
+      font-family: Gothic A1;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 10px;
+    }
+  }
+  .single-dostavka-content {
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin-bottom: 20px;
+    p {
+      color: #494949;
+      font-family: Gothic A1;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  .single-oplata-title {
+    background-color: #f8f8f8;
+    padding: 15px;
+    h2 {
+      color: #1c1c1c;
+      font-family: Gothic A1;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 20px;
+    }
+    p {
+      color: #494949;
+      font-family: Gothic A1;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  .single-oplata-content {
+    background-color: #f8f8f8;
+    padding: 15px;
+    h5 {
+      color: #303030;
+      font-family: Gothic A1;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .single-oplata {
+      display: block;
+      margin-bottom: 20px;
+      img {
+        margin-right: 15px;
+        width: 28px;
+        height: 28px;
+      }
+      span {
+        color: #494949;
+        font-family: Gothic A1;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
+    }
+    p {
+      color: #494949;
+      font-family: Gothic A1;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  section.new {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    background-color: #f8f8f8;
+    .new-title {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 70px;
+      }
+      .btn {
+        margin-top: 25px;
+        height: 50px;
+        border: none;
+        background: linear-gradient(130.83deg, #cfae87 9.11%, #a48159 70.56%);
+        padding: 10px 20px;
+        span {
+          padding-top: 5px;
+          padding-left: 5px;
+          color: white;
+        }
+      }
+    }
+    .slides {
+      position: relative;
+      margin-top: 61px;
+      img {
+        width: 300px;
+      }
+      button.heart {
+        i {
+          position: absolute;
+          padding: 10px;
+          background-color: white;
+          top: 10px;
+          font-size: 20px;
+        }
+      }
+      button.grafh {
+        i {
+          position: absolute;
+          top: 60px;
+          padding: 10px;
+          background-color: white;
+          font-size: 20px;
+        }
+      }
+      h4 {
+        padding: 5px 0;
+        font-size: 20px;
+        font-family: Gothic A1;
+        font-weight: 700;
+        width: 200px;
+      }
+      p {
+        color: #474747;
+        font-family: Gothic A1;
+        font-size: 18px;
+        width: 200px;
+      }
+      h5 {
+        color: #2f2f2f;
+        font-size: 22px;
+        font-family: Gothic A1;
+        font-weight: 700;
+        line-height: 24px;
+        width: 200px;
+      }
+      .btns {
+        box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+        width: 300px;
+        text-align: center;
+        .trash {
+          width: 100%;
+          padding: 10px 60px;
+          border: none;
+          background: #bb9b75;
+          box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+          margin-bottom: 10px;
+        }
+        .about-reko {
+          width: 100%;
+          padding: 10px 60px;
+          border: 1px solid #bb9b75;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .single {
+    margin: 30px 0;
+    .single-img {
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      .heart {
+        right: 80px;
+      }
+      .grafh {
+        right: 80px;
+      }
+      .slider {
+        width: 250px;
+        margin-bottom: 20px;
+      }
+      .quetion {
+        width: 250px;
+        padding: 0px;
+        margin: 0;
+      }
+    }
+    .single-title {
+      h2 {
+        font-size: 25px;
+        width: 300px;
+      }
+    }
+    .single-cart {
+      margin-top: 10px;
+      display: block;
+      button {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+      }
+      span {
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        border-radius: 2px;
+        background: #323232;
+        color: white;
+        padding-top: 8px;
+      }
+      .shop {
+        display: none;
+      }
+      .fa-heart,
+      .fa-chart-simple {
+        margin-left: 10px;
+        width: 44px;
+        height: 44px;
+        border-radius: 3px;
+        border: 1px solid #bb9b75;
+        background: #fff;
+        font-size: 20px;
+        padding: 13px 12px;
+        border-radius: 3px;
+        color: #bb9b75;
+      }
+    }
+    .single-content {
+      h5 {
+        color: #1c1c1c;
+        font-family: Gothic A1;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+      }
+      p {
+        color: #515151;
+        font-family: Gothic A1;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .single-h {
+        color: #2e2e2e;
+        font-family: Gothic A1;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+      }
+      .author {
+        color: #bb9b75;
+        font-family: Gothic A1;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+    .single-share {
+      img {
+        width: 340px;
+      }
+    }
+    section.new {
+      margin-top: 40px;
+      margin-bottom: 100px;
+      .new-title {
+        display: block;
+        h2 {
+          font-size: 40px;
+        }
+        .btn {
+          margin-top: 25px;
+          height: 50px;
+          border: none;
+          background: linear-gradient(130.83deg, #cfae87 9.11%, #a48159 70.56%);
+          padding: 10px 20px;
+          span {
+            padding-top: 5px;
+            padding-left: 5px;
+            color: white;
+          }
+        }
+      }
+      .slides {
+        position: relative;
+        margin-top: 61px;
+        img {
+          width: 300px;
+        }
+        button.heart {
+          i {
+            position: absolute;
+            padding: 10px;
+            background-color: white;
+            top: 10px;
+            font-size: 20px;
+          }
+        }
+        button.grafh {
+          i {
+            position: absolute;
+            top: 60px;
+            padding: 10px;
+            background-color: white;
+            font-size: 20px;
+          }
+        }
+        h4 {
+          padding: 5px 0;
+          font-size: 20px;
+          font-family: Gothic A1;
+          font-weight: 700;
+          width: 200px;
+        }
+        p {
+          color: #474747;
+          font-family: Gothic A1;
+          font-size: 18px;
+          width: 200px;
+        }
+        h5 {
+          color: #2f2f2f;
+          font-size: 22px;
+          font-family: Gothic A1;
+          font-weight: 700;
+          line-height: 24px;
+          width: 200px;
+        }
+        .btns {
+          box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+          width: 300px;
+          text-align: center;
+          .trash {
+            width: 100%;
+            padding: 10px 60px;
+            border: none;
+            background: #bb9b75;
+            box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.3);
+            margin-bottom: 10px;
+          }
+          .about-reko {
+            width: 100%;
+            padding: 10px 60px;
+            border: 1px solid #bb9b75;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+.login {
+  .login-dialog {
+    background-color: #f8f8f8;
+    padding: 35px;
+    width: 1145px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    .login-title {
+      h5 {
+        margin-left: 15px;
+        padding-top: 10px;
+      }
+    }
+    h1 {
+      color: #1f1f1f;
+      font-family: KTF Jermilov;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 55px;
+      padding-top: 20px;
+    }
+    .login-enter {
+      margin-bottom: 31px;
+      span {
+        margin-top: 5px;
+        margin-right: 20px;
+        color: #828282;
+        font-family: Gothic A1;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+      }
+      a {
+        color: #bb9b75;
+        text-align: center;
+        font-family: Gothic A1;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        text-decoration-line: underline;
+      }
+    }
+    .login-content {
+      .e-mail {
+        h5 {
+          display: flex;
+          width: 163px;
+          flex-direction: column;
+          flex-shrink: 0;
+        }
+        input {
+          width: 511px;
+        }
+      }
+      .password {
+        h5 {
+          display: flex;
+          width: 163px;
+          flex-direction: column;
+          flex-shrink: 0;
+        }
+        input {
+          width: 511px;
+        }
+      }
+    }
+    .login-p {
+      margin: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      .remember {
+        color: #6b6b6b;
+        font-family: Gothic A1;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        text-decoration-line: underline;
+      }
+      .forgot {
+        color: #bb9b75;
+        text-align: right;
+        font-family: Gothic A1;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18.2px;
+        text-decoration-line: underline;
+      }
+    }
+.btn{
+  display: flex;
+  justify-content: end;
+  button {
+    background: linear-gradient(172deg, #cfae87 0%, #a48159 100%);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+  }
+}
+    .login-click {
+      margin-top: 10px;
+      h5 {
+        color: #222;
+        font-family: HelveticaNeueCyr;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.5px;
+      }
+      .fa-facebook {
+        font-size: 50px;
+        color: blue;
+        margin-right: 20px;
+      }
+      .fa-google-plus {
+        font-size: 50px;
+        color: red;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .login {
+    .login-dialog {
+      padding: 20px;
+      width: 100%;
+      height: 630px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      h1 {
+        font-size: 40px;
+      }
+      .login-enter {
+        margin-bottom: 20px;
+        span {
+          font-size: 20px;
+        }
+        a {
+          font-size: 20px;
+        }
+      }
+      .login-content {
+        display: flex;
+        flex-direction: column;
+        .e-mail {
+          input {
+            width: 100%;
+          }
+        }
+        .password {
+          input {
+            width: 100%;
+          }
+        }
+      }
+      .login-p {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        .remember {
+          color: #6b6b6b;
+          font-family: Gothic A1;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 19px;
+          text-decoration-line: underline;
+        }
+        .forgot {
+          color: #bb9b75;
+          text-align: right;
+          font-family: Gothic A1;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 18.2px;
+          text-decoration-line: underline;
+        }
+      }
+      button {
+        background: linear-gradient(172deg, #cfae87 0%, #a48159 100%);
+        padding: 10px 40px;
+        border: none;
+        color: white;
+      }
+      .login-click {
+        margin-top: 10px;
+        h5 {
+          color: #222;
+          font-family: HelveticaNeueCyr;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 19.5px;
+        }
+        .fa-facebook {
+          font-size: 50px;
+          color: blue;
+          margin-right: 20px;
+        }
+        .fa-google-plus {
+          font-size: 50px;
+          color: red;
+        }
+      }
+    }
+  }
+}
